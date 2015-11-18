@@ -40,4 +40,5 @@ setup(name='appengine-python-vm-runtime',
                         'webapp2>=2.5.2',
                         'WebOb>=1.4',
                         'PyYAML>=3.11',
-                        'Werkzeug>=0.10',],)
+                        'Werkzeug>=0.10',
+                        'google-python-cloud-debugger>=1.2'],)
