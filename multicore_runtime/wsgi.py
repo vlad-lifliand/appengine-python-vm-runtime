@@ -53,7 +53,7 @@ root_logger.setLevel(logging.INFO)
 try:
   import googleclouddebugger
   googleclouddebugger.AttachDebugger()
-except BaseException:
+except ImportError:
   pass
 
 # Fetch application configuration via the config file.
